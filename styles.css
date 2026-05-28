@@ -136,7 +136,7 @@ label {
 
 .kezdolap{
   
-  background-image: url('htmlkepek/hatter2.jpg');
+  background-image: url('hatter2.jpg');
   background-repeat: no-repeat;
   background-position: right;
 
@@ -232,7 +232,7 @@ table,th, td {
 
 .carousel-wrapper{
   color: #ffffff;
-  background-image: url('htmlkepek/hatter.jpg');
+  background-image: url('hatter.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
