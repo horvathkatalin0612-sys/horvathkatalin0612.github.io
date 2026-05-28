@@ -1,0 +1,81 @@
+header, 
+nav, 
+#js, 
+.navbar, 
+.nav-links, 
+video, 
+iframe, 
+audio, 
+form, 
+button, 
+input, 
+.carousel-wrapper,
+.modal {
+    display: none !important;
+}
+
+body {
+    background-color: white !important;
+    background-image: none !important;
+    color: black !important;
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: white !important;
+}
+
+p {
+    text-align: justify;
+    orphans: 3;
+    widows: 3;
+}
+
+h1, h2, h3 {
+    color: black !important;
+    page-break-after: avoid;
+}
+
+img {
+    max-width: 50% !important;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    filter: grayscale(100%);
+}
+
+a {
+    color: black !important;
+    text-decoration: underline;
+}
+
+a::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+}
+
+.nyomtatas {
+    display: block;
+    border: 1px dashed gray;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc !important;
+    padding: 8px;
+    text-align: left;
+}

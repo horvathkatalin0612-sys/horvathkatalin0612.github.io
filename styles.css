@@ -1,0 +1,261 @@
+footer{
+  color: #ffffff;
+}
+
+p { font-size: 1.25rem; }
+aside { font-size: 1.5rem;
+  font-family: 'Times New Roman', serif; }
+figcaption { font-size: 1.8rem; }
+h2 { font-size: 2.3rem; }
+
+body.large p {
+    font-size: 2rem;
+}
+
+body.large aside {
+    font-size: 2.2rem;
+}
+
+body.large figcaption, 
+body.large h2 {
+    font-size: 3rem;
+}
+p, aside, li {
+    text-align: justify;
+    hyphens: auto;
+}
+
+#js {
+    text-align: left;
+}
+
+body.large .col-lg-6,
+body.large .col-md-6,
+body.large .col-md-4,
+body.large .col-md-8,
+body.large .col-lg-4 {
+  flex : 0 0 auto;
+  width: 100%;
+}
+
+
+a{
+  color: #6c083f;
+}
+a:hover{
+  color:rgb(219, 142, 0);
+}
+
+a:visited{
+  color: #e82f9b;
+}
+
+.thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#js {
+  text-align: right;
+}
+body.large {
+  font-size: 2rem !important;
+}
+
+body.large .container-lg {
+  max-width: 95% !important
+}
+
+body.large .col-lg-6,
+body.large .col-md-6,
+body.large .col-md-4,
+body.large .col-md-8,
+body.large .col-lg-4 {
+  flex : 0 0 auto;
+  width: 100%}
+
+
+.modal{
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0,0,0,0.8);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.modal:target{
+    display: flex;
+}
+
+.modal img{
+    max-height: 100%;
+}
+
+p{
+    margin: 20px;
+}
+
+div{
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #521034;
+    padding :10px;
+}
+
+div.container{
+    background-color: #ffffff;
+}
+
+input[type="text"], textarea, select {
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+label {
+    margin-bottom: 0.25rem;
+}
+
+.kezdolap{
+  
+  background-image: url('htmlkepek/hatter2.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #521034;
+  padding: 1rem 0;
+}
+#js label {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header a.current{
+  color: rgb(228, 232, 37);
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+
+.nav-links a:hover {
+  color: #ff0095;
+}
+
+header{
+    position: sticky;
+    top : 0;
+}
+
+table,th, td {
+    border: 1px solid pink;
+    padding: 5px;
+    align-items: center;
+}
+
+.carousel-wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  overflow-x: auto;
+}
+
+.slide {
+  flex: 0 0 400px;
+}
+.card-link {
+  text-decoration: none; 
+  color: inherit;       
+  display: block;        
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    gap: 40px; 
+   }
+
+  .navbar {
+    padding: 1rem 2rem;
+  }
+}
+
+.hirek{
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.carousel-wrapper img{
+  border-color: #ffffff;
+  border-width: 10px;
+  border-style: solid;
+}
+
+
+
+.carousel-wrapper{
+  color: #ffffff;
+  background-image: url('htmlkepek/hatter.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+#skiptocontent a {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    background-color: #521034;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#skiptocontent a:focus {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: auto;
+    height: auto;
+}
